@@ -1,0 +1,101 @@
+{
+  "configVersion": 1,
+  "timestamp": 1671892503564,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/971.9c70a237280d1107.js",
+        "/975.3f0cd92f926b4e8d.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.4e051d5f737932d7.js",
+        "/manifest.webmanifest",
+        "/polyfills.2b0e73310b43a781.js",
+        "/runtime.ffab5494f7346108.js",
+        "/styles.82a14204bd48c806.css"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css2\\?family=Lora:wght@500&display=swap"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "firebase",
+      "patterns": [
+        "https:\\/\\/fashion-shop-fb1de-default-rtdb\\.firebaseio\\.com\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 5,
+      "maxAge": 0,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/971.9c70a237280d1107.js": "fce4c882d5954a33fe250f73ff8eff0f7cd83799",
+    "/975.3f0cd92f926b4e8d.js": "548ff836406499e498cbd4fa26e5a1713ee403e8",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "7639f997b63553b89e04601e1ef8a231e75dc65c",
+    "/main.4e051d5f737932d7.js": "fa21ea5e409f8abeb18a09f48bcd0af3f83a7a21",
+    "/manifest.webmanifest": "63121a98b6b7f46d5f9d8af78b650b83a8480da4",
+    "/polyfills.2b0e73310b43a781.js": "234575fd027a2377f29c056220767f0667753eb2",
+    "/runtime.ffab5494f7346108.js": "33be92df024843e7f891c02852cdb600c67ba893",
+    "/styles.82a14204bd48c806.css": "2e1308f38fc1f480964cc81dfe0863c9ade9b024"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
